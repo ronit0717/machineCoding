@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ledgerCo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ledgerCo_jar</output-path>
+    <root id="archive" name="ledgerCo.jar">
+      <element id="module-output" name="ledgerCo" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,11 @@
+CREATE_USER,ronit
+CREATE_USER,john
+CREATE_DOCUMENT,document Name,some Content,ronit
+READ_DOCUMENT,document Name,john
+READ_DOCUMENT,document Name,ronit
+EDIT_DOCUMENT,document Name,ronit,some other content
+READ_DOCUMENT,document Name,ronit
+EDIT_DOCUMENT,document Name,john,john's content
+ADD_ROLE,document Name,ronit,john,EDIT
+EDIT_DOCUMENT,document Name,john,john's content
+READ_DOCUMENT,document Name,ronit

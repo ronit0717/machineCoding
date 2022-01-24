@@ -1,0 +1,6 @@
+{"command":"ADD_BRANCH","payload":"{\"name\":\"Whitefield\",\"vehicleRequestList\":[{\"vehicleType\":\"SEDAN\",\"count\":3,\"price\":20},{\"vehicleType\":\"SUV\",\"count\":1,\"price\":30}]}"}
+{"command":"ADD_BRANCH","payload":"{\"name\":\"Marathalli\",\"vehicleRequestList\":[{\"vehicleType\":\"HATCH_BACK\",\"count\":5,\"price\":15},{\"vehicleType\":\"SUV\",\"count\":1,\"price\":35}]}"}
+{"command":"ADD_BRANCH","payload":"{\"name\":\"Whitefield\",\"vehicleRequestList\":[{\"vehicleType\":\"SEDAN\",\"count\":3,\"price\":20},{\"vehicleType\":\"SUV\",\"count\":1,\"price\":30}]}"}
+{"command":"PRINT_SYSTEM_VIEW", "payload": "{\"startTime\":\"17-08-2021 00:00:00\",\"endTime\":\"17-08-2021 02:00:00\"}"}
+{"command":"RENT_VEHICLE", "payload": "{\"vehicleType\":\"SUV\",\"startTime\":\"17-08-2021 01:00:00\",\"endTime\":\"17-08-2021 02:00:00\"}"}
+{"command":"PRINT_SYSTEM_VIEW", "payload": "{\"startTime\":\"17-08-2021 00:00:00\",\"endTime\":\"17-08-2021 02:00:00\"}"}

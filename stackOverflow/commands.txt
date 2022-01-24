@@ -1,0 +1,7 @@
+{"command":"USER_SIGNUP","payload":"{\"name\":\"Kalyan\",\"profession\":\"Developer\"}"}
+{"command":"SUBSCRIBE","payload":"{\"topics\":[\"java\",\"hadoop\",\"jdk\"]}"}
+{"command":"ADD_QUESTION","payload":"{\"question\":\"What are new open source jdks\",\"topics\":[\"java\",\"jdk\"]}"}
+{"command":"ADD_QUESTION","payload":"{\"question\":\"Does Hadoop work on JDK 11\",\"topics\":[\"hadoop\",\"jdk\"]}"}
+{"command":"USER_SIGNUP","payload":"{\"name\":\"Sachin\",\"profession\":\"Developer\"}"}
+{"command":"ADD_ANSWER","payload":"{\"question\":\"What are new open source jdks\",\"answer\":\"Some Answer\"}"}
+{"command":"SHOW_FEED","payload":"{\"filter\":null,\"answered\":null}"}

@@ -1,0 +1,18 @@
+{"command":"REGISTER_USER","payload":"{\"name\":\"Pralove\",\"gender\":\"MALE\",\"mobile\":\"phoneNumber1\",\"pincode\":\"HSR\"}"}
+{"command":"REGISTER_USER","payload":"{\"name\":\"Nitesh\",\"gender\":\"MALE\",\"mobile\":\"phoneNumber2\",\"pincode\":\"BTM\"}"}
+{"command":"REGISTER_USER","payload":"{\"name\":\"Vatsal\",\"gender\":\"MALE\",\"mobile\":\"phoneNumber3\",\"pincode\":\"BTM\"}"}
+{"command":"LOGIN_USER","payload":"{\"mobile\":\"phoneNumber1\"}"}
+{"command":"REGISTER_RESTAURANT","payload":"{\"name\":\"Food Court-1\",\"pincodes\":\"BTM\\/HSR\",\"foodName\":\"NI Thali\",\"foodPrice\":100,\"foodQuantity\":5}"}
+{"command":"REGISTER_RESTAURANT","payload":"{\"name\":\"Food Court-2\",\"pincodes\":\"BTM\",\"foodName\":\"Burger\",\"foodPrice\":120,\"foodQuantity\":3}"}
+{"command":"LOGIN_USER","payload":"{\"mobile\":\"phoneNumber2\"}"}
+{"command":"REGISTER_RESTAURANT","payload":"{\"name\":\"Food Court-3\",\"pincodes\":\"HSR\",\"foodName\":\"SI Thali\",\"foodPrice\":150,\"foodQuantity\":1}"}
+{"command":"LOGIN_USER","payload":"{\"mobile\":\"phoneNumber3\"}"}
+{"command":"SHOW_RESTAURANT","payload":"{\"filter\":\"price\"}"}
+{"command":"PLACE_ORDER","payload":"{\"restaurantName\":\"Food Court-1\",\"quantity\":2}"}
+{"command":"PLACE_ORDER","payload":"{\"restaurantName\":\"Food Court-2\",\"quantity\":7}"}
+{"command":"CREATE_REVIEW","payload":"{\"restaurantName\":\"Food Court-2\",\"rating\":3,\"comment\":\"Good food\"}"}
+{"command":"CREATE_REVIEW","payload":"{\"restaurantName\":\"Food Court-1\",\"rating\":5,\"comment\":\"Nice food\"}"}
+{"command":"SHOW_RESTAURANT","payload":"{\"filter\":\"rating\"}"}
+{"command":"LOGIN_USER","payload":"{\"mobile\":\"phoneNumber1\"}"}
+{"command":"UPDATE_QUANTITY","payload":"{\"restaurantName\":\"Food Court-2\",\"quantity\":5}"}
+{"command":"UPDATE_LOCATION","payload":"{\"restaurantName\":\"Food Court-2\",\"pincodes\":\"BTM\\/HSR\"}"}
